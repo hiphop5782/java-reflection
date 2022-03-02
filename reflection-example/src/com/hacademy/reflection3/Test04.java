@@ -11,7 +11,7 @@ public class Test04 {
 			System.out.println(method);
 		}
 		
-		System.out.println("<all method information>");
+		System.out.println("<declared method information>");
 		for(Method method : c.getDeclaredMethods()) {
 			System.out.println(method);
 		}

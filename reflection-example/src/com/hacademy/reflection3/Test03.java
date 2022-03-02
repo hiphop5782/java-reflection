@@ -11,7 +11,7 @@ public class Test03 {
 			System.out.println(field);
 		}
 		
-		System.out.println("<all field information>");
+		System.out.println("<declared field information>");
 		for(Field field : c.getDeclaredFields()) {
 			System.out.println(field);
 		}

@@ -11,7 +11,7 @@ public class Test05 {
 			System.out.println(constructor);
 		}
 		
-		System.out.println("<all constructor information>");
+		System.out.println("<declared constructor information>");
 		for(Constructor<?> constructor : c.getDeclaredConstructors()) {
 			System.out.println(constructor);
 		}
