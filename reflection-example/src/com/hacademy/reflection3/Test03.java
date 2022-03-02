@@ -6,8 +6,13 @@ public class Test03 {
 	public static void main(String[] args) throws ClassNotFoundException {
 		Class<?> c = Class.forName("com.hacademy.reflection3.Member");
 		
-		System.out.println("<field information>");
+		System.out.println("<accessible field information>");
 		for(Field field : c.getFields()) {
+			System.out.println(field);
+		}
+		
+		System.out.println("<all field information>");
+		for(Field field : c.getDeclaredFields()) {
 			System.out.println(field);
 		}
 		
