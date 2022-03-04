@@ -7,5 +7,6 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="lib/lombok-1.18.12.jar" sourcepath="C:/Users/hwang/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
