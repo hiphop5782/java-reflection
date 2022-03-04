@@ -8,7 +8,7 @@ public class Test03 {
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException, NoSuchFieldException{
 		Class<?> c = Class.forName("com.hacademy.reflection4.Novel");
 		
-		Novel novel = (Novel)c.getDeclaredConstructor().newInstance();
+		Novel novel = new Novel();
 		
 		Field serial = c.getDeclaredField("serial");
 		serial.setAccessible(true);
